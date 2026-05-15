@@ -1,25 +1,15 @@
-# 👋 Hi, I'm Paweł Sadowski
+# 💫 About Me:
+👋 Cześć, jestem Paweł<br><br>👨‍🎓 O mnie<br><br>Jestem studentem kierunku *Programowanie aplikacji biznesowych* oraz aspirującym programistą skupionym na obszarze DevOps i backendu.<br><br>Obecnie buduję solidne podstawy w zakresie systemów Linux, kontroli wersji Git, koncepcji CI/CD oraz konteneryzacji Docker.<br><br>Rozwijam swoje umiejętności poprzez małe projekty i praktyczną naukę, aby lepiej zrozumieć proces dostarczania oprogramowania oraz działanie infrastruktury.<br><br>Moim celem jest rozwój w kierunku roli DevOps Engineer oraz praca z systemami produkcyjnymi.
 
-## 💻 About me
-I am learning IT fundamentals and exploring different areas of software development.
 
-## 🧰 Technologies I use
-<img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
-<img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" />
-<img alt="C#" src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" />
-<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" />
-<img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/pawe%C5%82-sadowski-b79452330/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://www.linkedin.com/in/pawe%C5%82-sadowski-b79452330/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sadowskipawel71@gmail.com) 
 
-## 🌐 Portfolio
-https://sadowski-pawel.github.io/sadowski-pawel/
+# 💻 Tech Stack:
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=sadowski-pawel&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=sadowski-pawel&theme=tokyonight&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=sadowski-pawel&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-## 📊 GitHub Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=sadowski-pawel&show_icons=true&theme=tokyonight)
-
-## 🚀 Projects
-Check my repositories for my practice projects.
-
-## 📫 Contact
-- GitHub: https://github.com/sadowski-pawel
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
