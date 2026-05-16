@@ -22,7 +22,7 @@
                 <p><strong>Computer Science Student | Aspiring Software Developer</strong></p>
             </div>
 
-            <img src="zdjecie-profilowe-4.jpg" class="hero-img" alt="Profile photo">
+            <img src="assets/image/zdjecie-profilowe-4.jpg" class="hero-img" alt="Profile photo">
 
         </header>
         <div class="about-card">
@@ -39,11 +39,11 @@
         </div>
         <div class="hero-links">
 
-            <a href="https://github.com/twoj-login" target="_blank">
+            <a href="https://github.com/sadowski-pawel/sadowski-pawel" target="_blank">
                 <i class="fa-brands fa-github"></i> GitHub
             </a>
 
-            <a href="https://linkedin.com/in/twoj-login" target="_blank">
+            <a href="https://www.linkedin.com/in/pawe%C5%82-sadowski-b79452330/" target="_blank">
                 <i class="fa-brands fa-linkedin"></i> LinkedIn
             </a>
 
@@ -54,12 +54,12 @@
     <div class="card">
 
         <h3>Wyższa Szkoła Biznesu w Nowym Sączu</h3>
-        <p>Computer Science (2nd year) — Programming of Business Applications</p>
+        <p>Programming of Business Applications (2nd year)</p>
 
-        <h3>Technical School in Limanowa</h3>
-        <p>IT Technician — completed</p>
+        <h3>Technikum informatyczne w Limanowej</h3>
+        <p>Ukończone</p>
 
-        <h3>Courses</h3>
+        <h3>Kursy</h3>
         <ul>
             <li>Strefa Kursów — Programming basics</li>
             <li>Udemy — C++ / C# / SQL courses</li>
@@ -115,7 +115,7 @@
 
         <h2>My Skills</h2>
 
-        <div class="skill-card">
+        <div>
             <h3><i class="fa-solid fa-language"></i> Languages</h3>
 
             <p>Polski — Native (C1)</p>
@@ -127,7 +127,7 @@
         </div>
         <div class="skills-container">
 
-            <div class="skill-card">
+            <div>
                 <h3><i class="fa-solid fa-code"></i> Programming</h3>
 
                 <p>
@@ -156,7 +156,7 @@
                 <div class="bar"><div class="level" style="width: 30%"></div></div>
             </div>
 
-            <div class="skill-card">
+            <div>
                 <h3><i class="fa-solid fa-database"></i> Databases</h3>
                 <p>SQL / Databases</p>
 
@@ -165,19 +165,18 @@
                 </div>
             </div>
 
-            <div class="skill-card">
+            <div>
                 <h3><i class="fa-solid fa-palette"></i> Frontend</h3>
                 <p>
-                    <i class="devicon-html5-plain">\<i class="devicon-css3-plain"></i> </i> HTML/CSS
+                <i class="devicon-html5-plain"></i> HTML
+                <i class="devicon-css3-plain"></i> CSS
                 </p>
-
-
                 <div class="bar">
                     <div class="level" style="width: 20%"></div>
                 </div>
             </div>
 
-            <div class="skill-card">
+            <div>
                 <h3><i class="fa-solid fa-gears"></i> Tools</h3>
                 <p>
                     <i class="fa-brands fa-github"></i>Git / GitHub <br /> <i class="fa-solid fa-code"></i> VS Code <br /> <i class="fa-solid fa-laptop-code"></i> Visual Studio
@@ -188,7 +187,7 @@
                 </div>
             </div>
 
-            <div class="skill-card">
+            <div>
                 <h3><i class="fa-solid fa-sitemap"></i> Workflow</h3>
                 <p><i class="fa-solid fa-bug"></i>Debugging  <br /> <i class="fa-solid fa-puzzle-piece"></i> Problem Solving <br /> <i class="fa-solid fa-broom"></i>  Clean Code Basics</p>
 
@@ -255,7 +254,6 @@
         let autoScrollInterval;
         let autoScrollPaused = false;
 
-        /* START AUTO SCROLL */
         function startAutoScroll() {
 
             autoScrollInterval = setInterval(() => {
@@ -276,17 +274,14 @@
 
         startAutoScroll();
 
-        /* PAUSE FUNCTION */
         function pauseAutoScroll() {
             autoScrollPaused = true;
         }
-
-        /* RESUME FUNCTION */
         function resumeAutoScroll() {
             autoScrollPaused = false;
         }
 
-        /* DRAG START */
+        
         slider.addEventListener("mousedown", (e) => {
 
             isDown = true;
@@ -297,19 +292,17 @@
             scrollLeft = slider.scrollLeft;
         });
 
-        /* DRAG END */
         function stopDrag() {
             isDown = false;
 
             setTimeout(() => {
                 resumeAutoScroll();
-            }, 2000); // 2s pauzy po interakcji
+            }, 2000); 
         }
 
         slider.addEventListener("mouseup", stopDrag);
         slider.addEventListener("mouseleave", stopDrag);
 
-        /* DRAG MOVE */
         slider.addEventListener("mousemove", (e) => {
 
             if (!isDown) return;

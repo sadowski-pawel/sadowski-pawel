@@ -99,14 +99,10 @@ nav a:hover {
 }
 
 
-
-
 .about-card p {
     line-height: 1.6;
     color: #cbd5e1;
 }
-
-
 
 .project-card p {
     color: #cbd5e1;
@@ -130,13 +126,9 @@ nav a:hover {
     margin-top: 20px;
 }
 
-.skill-card i {
-    margin-right: 8px;
-    color: #38bdf8;
-}
-
  i {
     color: #38bdf8;
+    margin-right: 8px;
 }
 
 p i {
@@ -188,10 +180,6 @@ a:hover {
     flex-shrink: 0;
 }
 
-
-
-
-
 .btn {
     background: #38bdf8;
     border: none;
@@ -214,16 +202,16 @@ a:hover {
     margin-top: 15px;
 }
 
-    .contact-links a {
-        background: #1e293b;
-        padding: 8px 12px;
-        border-radius: 10px;
-        color: #38bdf8;
-        text-decoration: none;
-        transition: 0.3s;
-    }
+.contact-links a {
+    background: #1e293b;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: #38bdf8;
+    text-decoration: none;
+    transition: 0.3s;
+}
 
-        .contact-links a:hover {
-            background: #334155;
-            transform: translateY(-2px);
-        }
+.contact-links a:hover {
+    background: #334155;
+    transform: translateY(-2px);
+}
